@@ -19,6 +19,7 @@ I then set up the network archeticutre of the network within Azure to monitor th
 
 ![Architecture Before Hardening](https://drive.google.com/uc?export=view&id=15ZwDLtrCle36rnuFf486mZ8VHRH2yLwi)
 
+
 ## Architecture After Hardening / Security Contorls
 
 ![Architecture After Hardening](https://drive.google.com/uc?export=view&id=1qgAJaR-kV9ASVLi8C2p-8P2vZKr1Ywg4)
@@ -99,3 +100,4 @@ Below are queries that were used to determine the results for the metrics report
 | Syslog (Linux VMs)                           | Syslog<br>\| where TimeGenerated >= ago(24h)<br>\| count                                                                                         
 | Security Incident (Sentinel Incidents)       | SecurityIncident<br>\| where TimeGenerated >= ago(24h)<br>\| count                                                                               |
 | NSG Inbound Malicious Flows Allowed          | AzureNetworkAnalytics_CL<br>\| where FlowType_s == "MaliciousFlow" and AllowedInFlows_d > 0<br>\| where TimeGenerated >= ago(24h)<br>\| count    |
+
