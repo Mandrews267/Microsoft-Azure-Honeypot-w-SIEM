@@ -17,4 +17,4 @@ I then set up the network archeticutre of the network within Azure to monitor th
 
 ## Architecture Before Hardening / Security Contorls
 
-![Architecture Before Hardening](https://drive.google.com/file/d/15ZwDLtrCle36rnuFf486mZ8VHRH2yLwi/view?usp=drive_link)
+![Architecture Before Hardening](https://drive.google.com/uc?export=view&id=15ZwDLtrCle36rnuFf486mZ8VHRH2yLwi)
